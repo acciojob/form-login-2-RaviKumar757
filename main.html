@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+   <form onsubmit="handleSubmit(event)">
+    <label>First Name:</label>
+    <input type="text" name="First Name" id="firstName" required><br><br>
+    <label>Last Name</label>
+    <input type="text" name="Last Name" id="LastName" required><br><br>
+    <label>Phone Number</label>
+    <input type="tel" name="Phone Number" id="phoneNumber" required><br><br>
+    <label>Email</label>
+    <input type="email" name="email" id="email" required><br><br>
 
+    <button type="submit">Submit</button>
+
+   </form>
+    
+   <script src="index.js"></script>
 </body>
-
 </html>
